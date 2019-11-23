@@ -3,10 +3,9 @@ class Ansible28 < Formula
 
   desc "Automate deployment, configuration, and upgrading"
   homepage "https://www.ansible.com/"
-  url "https://releases.ansible.com/ansible/ansible-2.8.5.tar.gz"
-  sha256 "8e9403e755ce8ef27b6066cdd7a4c567aa80ebe2fd90d0ff8efa0a725d246986"
-  revision 1
-  head "https://github.com/ansible/ansible.git", :branch => "devel"
+  url "https://releases.ansible.com/ansible/ansible-2.8.7.tar.gz"
+  sha256 "828239ca2b4d92865a00ab415caa932700f7c93f3e4838ddd55614ddf104c947"
+  head "https://github.com/ansible/ansible.git", :branch => "stable-2.8"
 
   depends_on "pkg-config" => :build
   depends_on "libyaml"
