@@ -7,6 +7,12 @@ class Ansible28 < Formula
   sha256 "828239ca2b4d92865a00ab415caa932700f7c93f3e4838ddd55614ddf104c947"
   head "https://github.com/ansible/ansible.git", :branch => "stable-2.8"
 
+  bottle do
+    root_url "https://bittray.com/laserscout/bottles"
+    cellar :any
+    sha256 "3b7b8ffdf8577718315d4a4d2f514e1f5fe78f021354905c6d23d39b3f79b1f3" => :mojave
+  end
+
   depends_on "pkg-config" => :build
   depends_on "libyaml"
   depends_on "openssl@1.1"
