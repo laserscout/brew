@@ -1,4 +1,4 @@
-class Ansible28 < Formula
+class AnsibleAT28 < Formula
   include Language::Python::Virtualenv
 
   desc "Automate deployment, configuration, and upgrading"
@@ -18,7 +18,7 @@ class Ansible28 < Formula
   depends_on "openssl@1.1"
   depends_on "python"
 
-  conflicts_with "ansible", :because => "You want to have Ansible 2.8 ;)"
+  conflicts_with "ansible", :because => "You can only have one ansible version"
 
   # Collect requirements from:
   #   ansible
