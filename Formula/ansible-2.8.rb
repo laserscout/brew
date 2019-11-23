@@ -1,4 +1,4 @@
-class Ansible < Formula
+class Ansible28 < Formula
   include Language::Python::Virtualenv
 
   desc "Automate deployment, configuration, and upgrading"
