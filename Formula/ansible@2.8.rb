@@ -10,7 +10,7 @@ class AnsibleAT28 < Formula
   bottle do
     root_url "https://dl.bintray.com/laserscout/bottles"
     cellar :any
-    sha256 "4e086ff542b3874ecb465980eb513972f6112fa5d237c4facc824962fa037f5f" => :mojave
+    sha256 "44e70a8885757f13b2e88ca413bbce6a083e60533737409b3ae5e03cd80c09dc" => :catalina
   end
 
   depends_on "pkg-config" => :build
