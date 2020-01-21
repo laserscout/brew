@@ -3,8 +3,8 @@ class AnsibleAT28 < Formula
 
   desc "Automate deployment, configuration, and upgrading"
   homepage "https://www.ansible.com/"
-  url "https://releases.ansible.com/ansible/ansible-2.8.7.tar.gz"
-  sha256 "828239ca2b4d92865a00ab415caa932700f7c93f3e4838ddd55614ddf104c947"
+  url "https://releases.ansible.com/ansible/ansible-2.8.8.tar.gz"
+  sha256 "c364ff5807cb88af29b161a3a1d88ff737f10b930a24be66d88769ee204f4536"
   head "https://github.com/ansible/ansible.git", :branch => "stable-2.8"
 
   bottle do
